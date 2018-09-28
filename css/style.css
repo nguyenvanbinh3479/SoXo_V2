@@ -20,11 +20,13 @@ body{
 }
 
 .slots {
+  border: 10px solid #fff;
+  border-radius: 30px;
   position: absolute;
   top: 35%;
-  left: 50%;
-  width: 38vw;
-  height: 40vw;
+  left: 51%;
+  width: 41vw;
+  height: 41vw;
   -webkit-transform: translate3d(-50%, -50%, 0);
           transform: translate3d(-50%, -50%, 0);
   /* -webkit-perspective: 800vw;
@@ -357,12 +359,10 @@ h2{
         font-size: 112px;
 }
 .button{
-        /* float: left; */
-        /* margin: 663px 190px 71px; */
         border-radius: 30px;
         position: absolute;
-        left: 201px;
-        bottom: 80px;
+        left: 88px;
+        bottom: -240px;
 }
 #contaner{
         overflow: hidden;
